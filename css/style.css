@@ -1,0 +1,108 @@
+body {
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 0 17px 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, select, button {
+    display: block;
+    color: cornflowerblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a, select, button:hover {
+    background-color: #111;
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+}
+
+.winner {
+    text-align: center;
+    padding: 50px;
+    color: fuchsia;
+    font-size: 80px;
+}
+
+.bigger, #minutes, #seconds {
+    font-size: 40px;
+    color: fuchsia;
+
+}
+
+#minutes {
+    padding: 0 0 0 50px;
+}
+
+#game {
+    margin: auto;
+    width: 800px;
+    height: 540px;
+}
+
+.game-card-10 {
+    box-sizing: border-box;
+    border: 1px solid #000;
+    width: 140px;
+    height: 250px;
+    float: left;
+    margin: 10px;
+    padding: 0;
+    cursor: pointer;
+    border-radius: 10px;
+    overflow: hidden;
+    transform-style: preserve-3d;
+    transition: all 0.1s linear;
+}
+
+.game-card-18 {
+    box-sizing: border-box;
+    border: 1px solid #000;
+    width: 113px;
+    height: 160px;
+    float: left;
+    margin: 10px;
+    padding: 0;
+    cursor: pointer;
+    border-radius: 10px;
+    overflow: hidden;
+    transform-style: preserve-3d;
+    transition: all 0.1s linear;
+}
+
+.game-card {
+    box-sizing: border-box;
+    border: 1px solid #000;
+    width: 80px;
+    height: 160px;
+    float: left;
+    margin: 10px;
+    padding: 0;
+    cursor: pointer;
+    border-radius: 10px;
+    overflow: hidden;
+    transform-style: preserve-3d;
+    transition: all 0.1s linear;
+}
+
+.rotate {
+    -ms-transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    box-shadow: -5px 5px 5px #aaa;
+
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match-Match Game</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onload="startGame();">
+<ul>
+    <li><a>Difficulty: </a></li>
+    <li>
+        <select id="list">
+            <option value="1">Low 5x2</option>
+            <option value="2">Medium 6x3</option>
+            <option value="3">High 8x3</option>
+        </select>
+    </li>
+    <li>
+        <button id="btn-game">Start Game</button>
+    </li>
+    <li>
+        <label id="minutes">00</label><span class='bigger'>:</span><label id="seconds">00</label>
+    </li>
+
+</ul>
+<div id="game"></div>
+
+<script src="js/actions.js"></script>
+</body>
+</html>
